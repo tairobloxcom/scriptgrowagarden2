@@ -1,0 +1,50 @@
+/* GitHub Pages Fix - TaiRoblox Grow A Garden */
+html{margin-top:0!important;scroll-behavior:smooth}
+body.github-pages-static{background:#fff!important}
+#wpadminbar,.block-edit-link,.edit-block-wrapper,.edit-block-button{display:none!important}
+.header-wrapper,.header-main{z-index:50}
+.header-main{box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.header-main .nav>li>a{color:#fff!important}
+.header-search-form input[type=search]{border-radius:8px!important}
+.containner-detail{max-width:842px!important;margin-left:auto!important;margin-right:auto!important}
+.post-header{border-radius:14px;box-shadow:0 1px 15px rgba(0,0,0,.06);padding:16px;margin:24px 0 16px}
+.post-thumbnail{border-radius:16px}
+.post-thumbnail img{object-fit:cover}
+.post-title{font-weight:700!important}
+.title_home{border-radius:10px;font-weight:700;letter-spacing:.2px}
+.post-info-table{overflow:hidden;box-shadow:0 1px 15px rgba(0,0,0,.08)!important;filter:none!important}
+.post-info-table img[src*="start.svg"]{width:15px;height:15px;vertical-align:-2px}
+.post-content{font-size:16px;line-height:1.75;color:#222}
+.post-content p{margin-bottom:1.1em}
+.post-content h2{margin-top:1.7em;padding-left:12px;border-left:5px solid var(--primary-color,#335fff);font-size:1.45rem}
+.post-content h3{margin-top:1.2em;font-size:1.15rem}
+.post-content img{max-width:100%;height:auto;border-radius:14px}
+.post-content figure{max-width:100%!important;margin:22px auto!important}
+.post-content figcaption{text-align:center;color:#666;font-size:.92rem;margin-top:6px}
+.post-content table{width:100%;border-collapse:collapse;display:block;overflow-x:auto;border-radius:10px}
+.post-content table td,.post-content table th{border:1px solid #e8e8e8;padding:12px}
+.modradar-download-container{margin:22px 0}
+.modradar-download-button{border:1px solid var(--primary-color,#335fff)!important;min-height:44px}
+.github-download-note{margin-top:12px;padding:14px 16px;border:1px solid #d9e2ff;background:#f6f8ff;border-radius:12px;color:#1f2a44}
+.github-download-note a{display:inline-block;margin-top:8px;padding:7px 14px;border-radius:8px;background:var(--primary-color,#335fff);color:#fff!important;font-weight:700}
+.author-card{filter:none!important;box-shadow:0 1px 15px rgba(0,0,0,.08)!important}
+.comments-area{margin-top:24px;padding:16px;border-radius:14px;background:#fff;box-shadow:0 1px 15px rgba(0,0,0,.06)}
+.wpd_comm_form textarea[disabled]{background:#f8f8f8!important;cursor:not-allowed}
+img{max-width:100%;height:auto}
+img[src^="http://tairoblox.com"]{content:attr(src)}
+a[aria-disabled="true"]{pointer-events:none;opacity:.65}
+@media (max-width:849px){
+  .header-main .nav>li>a{color:#222!important}
+  .header-inner{padding-left:12px!important;padding-right:12px!important}
+  .post-header{margin-left:0;margin-right:0}
+  .post-title{font-size:20px!important;text-align:center}
+  .post-info-table td,.post-info-table th{padding:10px!important;font-size:14px}
+  .post-content{font-size:15.5px}
+  .post-content h2{font-size:1.22rem}
+}
+@media (max-width:480px){
+  .post-thumbnail{width:96px!important;height:96px!important;margin:auto!important}
+  .post-header{align-items:center!important}
+  .author-description{padding:15px 20px!important}
+  .author-description::before,.author-description::after{font-size:70px!important}
+}
